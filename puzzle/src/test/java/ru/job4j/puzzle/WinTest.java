@@ -6,7 +6,7 @@ import static org.hamcrest.core.Is.is;
 
 public class WinTest {
     @Test
-    public void  whenVerticalWin() {
+    public void whenVerticalWin() {
         int[][] board = {
                 {0, 0, 1, 0, 0},
                 {0, 0, 1, 0, 0},

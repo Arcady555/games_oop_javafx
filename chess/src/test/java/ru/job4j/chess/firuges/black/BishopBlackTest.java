@@ -28,9 +28,9 @@ public class BishopBlackTest {
 
     @Test
     public void way() {
-        BishopBlack bishopBlack = new BishopBlack(Cell.C1);
-        Cell[] arrayActual = bishopBlack.way(Cell.G5);
-        Cell[] arrayExpected = new Cell[] {Cell.D2, Cell.E3, Cell.F4, Cell.G5};
+        BishopBlack bishopBlack = new BishopBlack(Cell.G5);
+        Cell[] arrayActual = bishopBlack.way(Cell.C1);
+        Cell[] arrayExpected = new Cell[] {Cell.F4, Cell.E3, Cell.D2, Cell.C1};
         Assert.assertArrayEquals(arrayExpected, arrayActual);
     }
 }
